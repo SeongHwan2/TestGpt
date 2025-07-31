@@ -8,12 +8,10 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Title</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Description</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns />

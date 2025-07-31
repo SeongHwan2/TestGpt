@@ -9,12 +9,10 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>ScorecardId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>TargetEntityId</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns />

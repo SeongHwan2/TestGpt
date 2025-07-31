@@ -9,49 +9,39 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>CampaignId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>ContactId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>LeadId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Status</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>HasResponded</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <emptySpace>true</emptySpace>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <emptySpace>true</emptySpace>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <emptySpace>true</emptySpace>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <emptySpace>true</emptySpace>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <emptySpace>true</emptySpace>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -65,40 +55,32 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CompanyOrAccount</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Title</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Phone</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Email</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <emptySpace>true</emptySpace>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <emptySpace>true</emptySpace>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <emptySpace>true</emptySpace>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <emptySpace>true</emptySpace>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -112,14 +94,12 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CreatedById</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>LastModifiedById</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
