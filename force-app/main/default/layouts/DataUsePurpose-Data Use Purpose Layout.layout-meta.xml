@@ -9,24 +9,20 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Name</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>LegalBasisId</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Description</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>CanDataSubjectOptOut</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

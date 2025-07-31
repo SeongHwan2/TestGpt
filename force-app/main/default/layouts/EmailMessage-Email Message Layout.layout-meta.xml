@@ -9,29 +9,24 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>RelatedToId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>MessageDate</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CreatedById</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Status</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>LastModifiedById</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -45,27 +40,22 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>FromAddress</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>FromName</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ToAddress</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>CcAddress</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>BccAddress</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
@@ -79,17 +69,14 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Subject</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>HtmlBody</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>TextBody</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>

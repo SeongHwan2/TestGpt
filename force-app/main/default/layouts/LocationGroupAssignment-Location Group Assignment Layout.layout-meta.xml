@@ -9,19 +9,16 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>LocationGroupAssignment</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>LocationId</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>LocationGroupId</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -35,14 +32,12 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CreatedById</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>LastModifiedById</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

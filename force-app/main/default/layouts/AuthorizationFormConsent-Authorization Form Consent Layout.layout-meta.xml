@@ -9,44 +9,36 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Name</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>AuthorizationFormTextId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ConsentCapturedSourceType</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ConsentCapturedDateTime</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>DocumentVersionId</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>ConsentGiverId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ConsentCapturedSource</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Status</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

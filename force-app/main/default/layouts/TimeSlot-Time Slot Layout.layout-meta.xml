@@ -9,39 +9,32 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>DayOfWeek</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>StartTime</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>MaxAppointments</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>OperatingHoursId</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Type</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>EndTime</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>WorkTypeGroupId</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -55,14 +48,12 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CreatedById</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>LastModifiedById</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

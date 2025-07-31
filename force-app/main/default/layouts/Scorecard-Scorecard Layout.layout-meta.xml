@@ -9,7 +9,6 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Name</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
@@ -23,7 +22,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Description</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>

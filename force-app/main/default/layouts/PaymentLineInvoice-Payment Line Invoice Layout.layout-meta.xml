@@ -9,34 +9,28 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>PaymentLineInvoiceNumber</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>PaymentId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>HasBeenUnapplied</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Type</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>InvoiceId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Comments</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -50,24 +44,20 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Amount</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>ImpactAmount</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>PaymentBalance</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>EffectiveImpactAmount</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -81,29 +71,24 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>AssociatedAccountId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Date</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>UnappliedDate</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>AssociatedPaymentLineId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>AppliedDate</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -117,24 +102,20 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CreatedById</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CreatedDate</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>LastModifiedById</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>LastModifiedDate</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

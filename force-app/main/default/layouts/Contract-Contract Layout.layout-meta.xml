@@ -12,74 +12,60 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Pricebook2Id</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>OwnerId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>ContractNumber</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>AccountId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>CustomerSignedId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>CustomerSignedTitle</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>CustomerSignedDate</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Status</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>StartDate</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>EndDate</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>ContractTerm</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>OwnerExpirationNotice</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>CompanySignedId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>CompanySignedDate</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -93,7 +79,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>BillingAddress</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns />
@@ -108,24 +93,20 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>ActivatedById</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CreatedById</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>ActivatedDate</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>LastModifiedById</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -139,12 +120,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>SpecialTerms</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Description</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>

@@ -9,7 +9,6 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>ShippingProfileId</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns />

@@ -9,7 +9,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>SourceObjectId</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>

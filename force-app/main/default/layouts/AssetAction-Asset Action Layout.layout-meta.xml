@@ -9,74 +9,60 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>CategoryEnum</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>AssetActionNumber</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Type</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>ActionDate</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>ProductAmountChange</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>EstimatedTaxChange</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>QuantityChange</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>SubtotalChange</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>AssetId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Category</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Amount</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>AdjustmentAmountChange</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>ActualTaxChange</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>MrrChange</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -90,24 +76,20 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CreatedById</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CreatedDate</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>LastModifiedById</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>LastModifiedDate</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

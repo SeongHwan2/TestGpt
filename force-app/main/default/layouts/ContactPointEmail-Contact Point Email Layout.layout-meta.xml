@@ -9,17 +9,14 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>IsPrimary</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>EmailAddress</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ParentId</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns />

@@ -9,17 +9,14 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>WebCartId</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>AdjustmentBasisDetail</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>AdjustmentBasisReferenceId</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>

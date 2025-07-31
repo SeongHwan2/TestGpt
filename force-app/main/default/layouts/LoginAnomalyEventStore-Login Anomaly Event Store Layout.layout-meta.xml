@@ -9,29 +9,24 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>LoginAnomalyEventNumber</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>EventIdentifier</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Summary</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>EventDate</field>
-                <required>true</required>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Score</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -45,7 +40,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>SecurityEventData</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns />
@@ -60,14 +54,12 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>UserId</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>SourceIp</field>
-                <required>true</required>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
