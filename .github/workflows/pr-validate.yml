@@ -1,0 +1,25 @@
+name: PR Validation Only
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Salesforce CLI
+        run: npm install sfdx-cli --global
+
+      - name: Authenticate Salesforce Org
+        run: |
+          echo "${{ secrets.SF_AUTH_URL }}" > authfile.txt
+          sfdx auth:sfdxurl:store -f authfile.txt -a Sandbox
+
+      - name: Check-only deploy to validate
+        run: |
+          sfdx force:source:deploy -p force-app -u Sandbox --checkonly --testlevel RunLocalTests --wait 10
