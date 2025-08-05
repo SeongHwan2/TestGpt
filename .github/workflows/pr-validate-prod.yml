@@ -1,0 +1,25 @@
+name: PR Validation Against Production
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate-production:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Salesforce CLI
+        run: npm install sfdx-cli --global
+
+      - name: Authenticate to Production Org
+        run: |
+          echo "${{ secrets.SF_AUTH_URL_PROD }}" > authfile.txt
+          sfdx auth:sfdxurl:store -f authfile.txt -a Prod
+
+      - name: Check-only Deploy to Production Org
+        run: |
+          sfdx force:source:deploy -p force-app -u Prod --checkonly --testlevel RunLocalTests --wait 10
