@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Create_GPT</fullName>
-    <label>Create GPT</label>
+    <columns>NAME</columns>
     <filterScope>Everything</filterScope>
     <filters />
-    <columns>NAME</columns>
+    <label>Create GPT</label>
     <sortColumn>NAME</sortColumn>
     <sortOrder>Ascending</sortOrder>
 </ListView>
