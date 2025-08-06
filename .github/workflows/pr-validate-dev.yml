@@ -7,6 +7,7 @@ on:
 
 jobs:
   validate-dev:
+    if: contains(github.event.pull_request.labels.*.name, 'dev')
     runs-on: ubuntu-latest
 
     steps:
