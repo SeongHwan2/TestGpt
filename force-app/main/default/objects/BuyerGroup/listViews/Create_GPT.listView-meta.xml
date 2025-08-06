@@ -4,9 +4,7 @@
     <label>Create GPT</label>
     <filterScope>Everything</filterScope>
     <filters />
-    <columns>
-        <field>NAME</field>
-    </columns>
+    <columns>NAME</columns>
     <sortColumn>NAME</sortColumn>
     <sortOrder>Ascending</sortOrder>
 </ListView>

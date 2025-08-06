@@ -291,6 +291,7 @@
         <masterLabel>00h1a0000012AHE</masterLabel>
         <sizeX>3</sizeX>
         <sizeY>4</sizeY>
+        <summaryLayoutItems>
         <summaryLayoutItem>
             <field>ContactId</field>
             <posX>0</posX>
@@ -341,6 +342,7 @@
             <posX>2</posX>
             <posY>2</posY>
         </summaryLayoutItem>
+        </summaryLayoutItems>
         <summaryLayoutStyle>CaseInteraction</summaryLayoutStyle>
     </summaryLayout>
 </Layout>
