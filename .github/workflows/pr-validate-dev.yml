@@ -19,7 +19,7 @@ jobs:
       - name: Authenticate to Dev Org
         run: |
           echo "${{ secrets.SF_AUTH_URL_DEV }}" > authfile.txt
-          sfdx auth:sfdxurl:store -f authfile.txt -a DevOrg
+          sfdx force:auth:sfdxurl:store -f authfile.txt -a DevOrg
 
       - name: 🔍 Debug: Check Authenticated Orgs
         run: sfdx force:org:list
