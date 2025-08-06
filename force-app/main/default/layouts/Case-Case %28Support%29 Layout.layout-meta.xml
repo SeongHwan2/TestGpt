@@ -301,56 +301,56 @@
         <masterLabel>00h1a0000012AHJ</masterLabel>
         <sizeX>3</sizeX>
         <sizeY>4</sizeY>
-        <summaryLayoutItems>
+        <summaryLayoutItem>
             <field>ContactId</field>
             <posX>0</posX>
             <posY>0</posY>
-        </summaryLayoutItems>
-        <summaryLayoutItems>
+        </summaryLayoutItem>
+        <summaryLayoutItem>
             <field>AccountId</field>
             <posX>0</posX>
             <posY>1</posY>
-        </summaryLayoutItems>
-        <summaryLayoutItems>
+        </summaryLayoutItem>
+        <summaryLayoutItem>
             <field>ContactPhone</field>
             <posX>0</posX>
             <posY>2</posY>
-        </summaryLayoutItems>
-        <summaryLayoutItems>
+        </summaryLayoutItem>
+        <summaryLayoutItem>
             <field>CaseNumber</field>
             <posX>1</posX>
             <posY>0</posY>
-        </summaryLayoutItems>
-        <summaryLayoutItems>
+        </summaryLayoutItem>
+        <summaryLayoutItem>
             <field>CreatedDate</field>
             <posX>1</posX>
             <posY>1</posY>
-        </summaryLayoutItems>
-        <summaryLayoutItems>
+        </summaryLayoutItem>
+        <summaryLayoutItem>
             <field>Subject</field>
             <posX>1</posX>
             <posY>2</posY>
-        </summaryLayoutItems>
-        <summaryLayoutItems>
+        </summaryLayoutItem>
+        <summaryLayoutItem>
             <field>Description</field>
             <posX>1</posX>
             <posY>3</posY>
-        </summaryLayoutItems>
-        <summaryLayoutItems>
+        </summaryLayoutItem>
+        <summaryLayoutItem>
             <field>Status</field>
             <posX>2</posX>
             <posY>0</posY>
-        </summaryLayoutItems>
-        <summaryLayoutItems>
+        </summaryLayoutItem>
+        <summaryLayoutItem>
             <field>Priority</field>
             <posX>2</posX>
             <posY>1</posY>
-        </summaryLayoutItems>
-        <summaryLayoutItems>
+        </summaryLayoutItem>
+        <summaryLayoutItem>
             <field>OwnerId</field>
             <posX>2</posX>
             <posY>2</posY>
-        </summaryLayoutItems>
+        </summaryLayoutItem>
         <summaryLayoutStyle>CaseInteraction</summaryLayoutStyle>
     </summaryLayout>
 </Layout>
