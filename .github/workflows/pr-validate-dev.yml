@@ -1,4 +1,4 @@
-name: PR Validation Against Dev Org
+name: PR Validation Dev Org
 
 on:
   pull_request:
