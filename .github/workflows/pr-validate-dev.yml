@@ -21,6 +21,9 @@ jobs:
           echo "${{ secrets.SF_AUTH_URL_DEV }}" > authfile.txt
           sfdx auth:sfdxurl:store -f authfile.txt -a DevOrg
 
+      - name: 🔍 Debug: Check Authenticated Orgs
+        run: sfdx force:org:list
+
       - name: Check-only Deploy to Dev Org
         run: |
           sfdx force:source:deploy -p force-app -u DevOrg --checkonly --testlevel RunLocalTests --wait 10
