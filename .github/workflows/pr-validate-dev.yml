@@ -2,9 +2,14 @@ name: PR Validation Dev Org
 
 on:
   pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - labeled
     branches:
       - master
-    types: [opened, reopened, synchronize, labeled]
+
   workflow_dispatch:
 
 jobs:
