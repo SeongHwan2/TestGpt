@@ -28,6 +28,3 @@ jobs:
       - name: Check-only Deploy to Dev Org
         run: |
           sfdx force:source:deploy -p force-app -u DevOrg --checkonly --testlevel RunLocalTests --wait 10
-
-      - name: Debug: Show Authenticated Orgs
-        run: sfdx force:org:list
