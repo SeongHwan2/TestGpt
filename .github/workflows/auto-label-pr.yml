@@ -1,0 +1,19 @@
+name: Auto Label PR
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  add-labels:
+    runs-on: ubuntu-latest
+    steps:
+      # 공통 라벨 항상 추가
+      - name: Add default label to PR
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: |
+            dev
+
+      
