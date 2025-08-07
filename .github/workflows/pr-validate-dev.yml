@@ -1,12 +1,10 @@
 name: PR Validation Dev Org
 
 on:
-  pull_request:
+  workflow_run:
+    workflows: ["Auto Label PR"]
     types:
-      - opened
-      - reopened
-      - synchronize
-      - labeled
+      - completed
     branches:
       - master
 
