@@ -13,8 +13,10 @@ jobs:
   add-label:
     runs-on: ubuntu-latest
     steps:
-      - name: Add 'dev' label using PAT
+      - name: Add 'dev' label using PAT (no checkout)
         run: |
-          gh pr edit ${{ github.event.pull_request.number }} --add-label "dev"
+          gh pr edit ${{ github.event.pull_request.number }} \
+            --add-label "dev" \
+            --repo ${{ github.repository }}
         env:
           GH_TOKEN: ${{ secrets.PAT_WITH_WORKFLOW_SCOPE }}
