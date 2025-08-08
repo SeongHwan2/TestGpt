@@ -8,7 +8,10 @@ on:
 
 jobs:
   validate-dev:
-    if: contains(github.event.pull_request.labels.*.name, 'dev')
+    if: |
+      (github.event_name == 'pull_request' &&
+       (contains(join(github.event.pull_request.labels.*.name, ' '), 'dev')
+        || (github.event.action == 'labeled' && contains(toLower(github.event.label.name), 'dev'))))
     runs-on: ubuntu-latest
 
     steps:
