@@ -8,10 +8,13 @@ on:
 
 jobs:
   validate-dev:
+    # ⬇️ 최소 수정: labeled 이벤트일 때 'dev' 라벨이(부분일치) 있으면 실행
     if: |
-      (github.event_name == 'pull_request' &&
-       (contains(join(github.event.pull_request.labels.*.name, ' '), 'dev')
-        || (github.event.action == 'labeled' && contains(toLower(github.event.label.name), 'dev'))))
+      github.event_name == 'pull_request' &&
+      (
+        contains(join(github.event.pull_request.labels.*.name, ' '), 'dev') ||
+        (github.event.action == 'labeled' && contains(github.event.label.name, 'dev'))
+      )
     runs-on: ubuntu-latest
 
     steps:
