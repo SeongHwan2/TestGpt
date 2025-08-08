@@ -1,19 +1,20 @@
-name: Auto Label PR
+name: Add Dev Label to PR
 
 on:
-  pull_request_target:
-    types: [opened]
+  pull_request:
+    types: [opened, reopened]
+    branches:
+      - master
+
+permissions:
+  pull-requests: write
 
 jobs:
-  add-labels:
+  add-label:
     runs-on: ubuntu-latest
     steps:
-      # 공통 라벨 항상 추가
-      - name: Add default label to PR
-        uses: actions-ecosystem/action-add-labels@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: |
-            dev
-
-      
+      - name: Add 'dev' label using PAT
+        run: |
+          gh pr edit ${{ github.event.pull_request.number }} --add-label "dev"
+        env:
+          GH_TOKEN: ${{ secrets.PAT_WITH_WORKFLOW_SCOPE }}
