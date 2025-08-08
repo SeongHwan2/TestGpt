@@ -10,3 +10,7 @@ package.xml
 
 # LWC Jest
 **/__tests__/**
+# Ignore all standard object metadata except custom SelfKnowlege__c
+force-app/main/default/objects/*
+!force-app/main/default/objects/SelfKnowlege__c
+!force-app/main/default/objects/SelfKnowlege__c/**
